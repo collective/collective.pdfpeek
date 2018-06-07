@@ -1,7 +1,7 @@
 /* define background image for the expose mask */
 #mask {
-    background:#123 url(++resource++collective.pdfpeek.images/mask_gradient_1800.png) no-repeat;
-    background-position:50% -200px;
+    background: #123 url('++resource++collective.pdfpeek.images/mask_gradient_1800.png') no-repeat;
+    background-position: 50% -200px;
 }
 
 /* general settings for both scrollables */
@@ -13,7 +13,7 @@ div.items {
 
 /* next/prev buttons */
 div.navi {
-    background-image:url(++resource++collective.pdfpeek.images/hori_large.png);
+    background-image:url('++resource++collective.pdfpeek.images/hori_large.png');
     width:30px;
     height:30px;
     float:left;
@@ -39,7 +39,7 @@ div.navi.disabled {
     float:left;
     width: 602px;
     height:240px;
-    background:#222 url(++resource++collective.pdfpeek.images/h150.png) repeat-x;
+    background:#222 url('++resource++collective.pdfpeek.images/h150.png') repeat-x;
     margin:15px;
     border:2px solid #fff;
     outline:1px solid #333;
@@ -54,7 +54,7 @@ div.navi.disabled {
 
 /* box styling */
 #box {
-    background-image:url(++resource++collective.pdfpeek.images/black.png);
+    background-image:url('++resource++collective.pdfpeek.images/black.png');
     width:656px;
     height:724px;
     position:absolute;
