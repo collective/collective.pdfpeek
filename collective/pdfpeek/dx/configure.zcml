@@ -10,7 +10,7 @@
 
     <plone:behavior
         title="PDF thumbnails and metadata"
-        for="plone.dexterity.interfaces.IDexterityContent"
+        name="collective.pdfpeek"
         description="Generate asynchrounously thumbnails of pdf stored into primary field."
         provides=".behaviors.IPDFDataExtractable"
         />
