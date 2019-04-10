@@ -2,6 +2,6 @@
 <object name="File" meta_type="Dexterity FTI" i18n:domain="plone"
         xmlns:i18n="http://xml.zope.org/namespaces/i18n">
     <property name="behaviors" purge="False">
-        <element value="collective.pdfpeek.dx.behaviors.IPDFDataExtractable"/>
+        <element value="collective.pdfpeek"/>
     </property>
 </object>
